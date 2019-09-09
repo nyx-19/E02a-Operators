@@ -38,7 +38,7 @@ def floorDiv(a1,a2):
     Divides a1 by a2 with remainder rounded down
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1//a2
     return toReturn
 
 def mod(a1,a2):
@@ -168,7 +168,9 @@ def shuffleList(l):
     Returns a list which has all the elements of l in a random order
     '''
     toReturn = []
-    # add your code here
+    random.shuffle(l)
+    toReturn = l
+    #add your code here
     return toReturn
 
 def listUntil(a):
